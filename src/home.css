@@ -1,0 +1,48 @@
+@media only screen and (min-width: 640px){
+
+    .navbar{
+      height: 15vh;
+      padding-left: 0px;
+      padding-right: 0px;
+      /*margin-left: 2%;
+      margin-right: 2%;*/
+    }
+    
+    .navbar-nav{
+      /*margin-right: 15%;*/    
+    }
+  
+    .name {
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 25px;
+      /*margin-left: 6.5%;*/
+    }
+  
+  }
+  
+  /* MOBILE */
+  @media only screen and (max-width: 639px){
+  
+    .navbar{
+      background-color:#0e1111 !important;
+      height: 15vh;
+    }
+    
+    .name {
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 22px;
+      color: honeydew !important;
+    }
+  
+    .navbar-toggler-icon{
+      background-color: honeydew !important;
+      font-size: medium;
+    }
+  
+    .navbar-nav{
+      background-color: whitesmoke;
+    }
+
+}
+  
+  

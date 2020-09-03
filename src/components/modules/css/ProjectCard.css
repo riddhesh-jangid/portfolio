@@ -1,0 +1,68 @@
+
+time{
+    color: #868e96;
+    font-size: .75rem;
+    font-weight: 400;
+}
+
+.projectCard{
+    margin-top: 0.8rem;
+    cursor: pointer;
+}
+
+.projectName{
+    font-family: Roboto,Arial,Noto Sans,sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+    line-height: 1.2rem;
+}
+
+.introduction{
+    line-height: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+.tag-group{
+    margin-top: 0.4rem;
+}
+
+.tag{
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: .1rem .6rem;
+    border-radius: 3rem;   
+    margin: 0.2rem;
+}
+
+.react-tag{
+    background-color: lightblue;
+}
+
+.django-tag{
+    background-color: lightcoral;
+}
+
+.rest-tag{
+    background-color: lightgreen;
+}
+
+.solidity-tag{
+    background-color: lightpink;
+}
+
+.ifsc-tag{
+    background-color: lightgrey;
+}
+
+@keyframes opacityAnime {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+@keyframes heightAnime {
+    from {height: 0;}
+    to {height: auto;}
+}  
+
