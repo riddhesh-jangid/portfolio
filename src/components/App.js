@@ -38,8 +38,7 @@ function App() {
               <br/>
               <p className="subIntroText">
                 This website is a stack of my experiments with developement in different enviroments and technologies.
-                Apart from full stack development it includes blockchain, google chrome extension, android, ansible, python scripts and 
-                netbeans.
+                Apart from full stack development it includes blockchain, google chrome extension, android, ansible and python scripts.
                 <br/><br/>
                 You can see my major projects in project section and contact me at
                 <img src={blank} className="blank"></img>

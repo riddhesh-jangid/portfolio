@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 import Projects from './components/Projects';
 import App from './components/App';
 import About from './components/About';
+import Resume from './components/Resume';
 import './home.css';
 
 function Home(){
@@ -22,6 +23,9 @@ function Home(){
                     <li className="nav-itme">
                         <Link to="/projects" className="nav-link">Projects</Link>
                     </li>
+                    <li className="nav-itme">
+                        <Link to="/resume" className="nav-link">Resume</Link>
+                    </li>
                     <li className="nav-item">
                         <Link to="/about" className="nav-link">About</Link>
                     </li>
@@ -30,11 +34,14 @@ function Home(){
             </nav>
             {/* <= NAVBAR */}
             <Switch>
-                <Route path="/" exact>
+                <Route path="/portfolio" exact>
                     <App/>
                 </Route>
                 <Route path="/projects">
                     <Projects/>
+                </Route>
+                <Route path="/resume">
+                    <Resume/>
                 </Route>
                 <Route path="/about">
                     <About/>
