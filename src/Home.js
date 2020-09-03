@@ -17,7 +17,7 @@ function Home(){
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">          
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-itme active">
-                        <Link to="/" className="nav-link">Home</Link>
+                        <Link to="/portfolio" className="nav-link">Home</Link>
                     </li>
                     <li className="nav-itme">
                         <Link to="/projects" className="nav-link">Projects</Link>

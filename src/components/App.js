@@ -60,7 +60,7 @@ function App() {
       {/* HOME MOBILE => */}
       <div className="homeMobile">
         <div className="mobileImageContainer d-flex justify-content-center align-items-center">
-          <img src="./images/me.jpg" alt="Riddhesh Jangid" className="myImage"></img>
+          <img src={me} alt="Riddhesh Jangid" className="myImage"></img>
         </div>
         <div className="introContainer">
           <h1 className="introText">
