@@ -74,21 +74,6 @@ function Projects(){
                 tag3 = "MySQL"
             ></ProjectCard>
 
-            {/* AutoLinkPost */}
-            <ProjectCard
-                date = "10 Dec, 2020" 
-                projectName = "AutoLinkedinPost : A Google chrome extension for Linkedin"
-                introduction1 = "A google chrome extension for posting data on linkedin with the data resides on server in a declared time interval. Data is placed in mysql tables and retrived by API build in php. Once extension is installed we only need to register email then everything runs automatically."
-                role = "Chrome Extension Developer"
-                teamSize = "1"
-                type="Chrome Extension"
-                site = "Github"
-                siteLink = "https://github.com/riddhesh-jangid/AutoLinkedinPost"
-                tag1 = "Javascript"
-                tag2 = "Chrome"
-                tag3 = "PHP"
-            ></ProjectCard>
-
             {/* Goansible */}
             <ProjectCard
                 date = "17 July, 2019" 
